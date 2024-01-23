@@ -1,7 +1,7 @@
 package Interface;
 
 interface Animal {
-    public void animalSound(); // interface method (does not have a body)
+    public abstract void animalSound(); // interface method (does not have a body) //public abstract by default
     public void sleep(); // interface method (does not have a body)
 }
 

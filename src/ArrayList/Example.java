@@ -12,7 +12,7 @@ class GFG {
         al.add("United");
         al.add("City");
         System.out.println("Original ArrayList " +al);
-        al.add(1, "Manchester");//Adding element at index
+        al.add(0, "Manchester");//Adding element at index
         System.out.println("Updated ArrayList after addition " +al);
         al.set(2,"Arsenal");
         System.out.println("Updated ArrayList after changing element " +al);
