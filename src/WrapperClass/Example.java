@@ -4,6 +4,8 @@ package WrapperClass;
 //Example
 //ArrayList<int> myNumbers = new ArrayList<int>(); // Invalid
 //ArrayList<Integer> myNumbers = new ArrayList<Integer>(); // Valid
+//Advantages
+//encapsulation, type conversion, autoboxing and unboxing, utility methods, thread safety, and immutability
 public class Example {
     public static void main(String[] args) {
         Integer myInt = 5;
