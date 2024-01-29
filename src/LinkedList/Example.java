@@ -1,5 +1,5 @@
 package LinkedList;
-//The LinkedList class is a collection which can contain many objects of the same type.
+//The LinkedList class is a collection which can contain many objects of the same type. Time complexity is O(n)
 import java.io.IOException;
 import java.util.LinkedList;
 
