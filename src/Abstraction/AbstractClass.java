@@ -1,5 +1,6 @@
 package Abstraction;
-
+//Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+//It can have abstract and non-abstract methods.
 import java.io.IOException;
 
 abstract class AbstractClass {
@@ -16,7 +17,7 @@ class TryAbstractClass extends AbstractClass
 
 class Main
 {
-    public static void main(String args[])throws IOException
+    public static void main(String[] args)throws IOException
     {
         TryAbstractClass t = new TryAbstractClass();
         t.display();

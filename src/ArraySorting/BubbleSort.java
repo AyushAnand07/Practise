@@ -23,7 +23,7 @@ class Main {
                 }
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         int[] data = { -2, 45, 0, 11, -9 };
 

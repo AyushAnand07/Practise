@@ -24,7 +24,7 @@ class Rectangle extends TwoDShape {
     public void draw() {
         System.out.println("Drawing Rectangle");
     }
-    public static void main (String args[]) {
+    public static void main (String[] args) {
         // TwoDShape object referring to rectangle.
         TwoDShape rect = new Rectangle(10,10);
         rect.draw();
