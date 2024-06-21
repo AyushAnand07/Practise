@@ -2,21 +2,16 @@ package ExceptionHandling;
 
 import java.io.*;
 
-class MainTes2 {
-    // declaring the type of exception
-    public static void findFile() throws IOException {
-
-        // code that may generate IOException
-        File newFile = new File("test.txt");
-        FileInputStream stream = new FileInputStream(newFile);
+class M{
+    void method()throws IOException{
+        System.out.println("device operation performed");
     }
+}
+class testThrows{
+    public static void main(String[] args)throws IOException{//declare exception
+        M m=new M();
+        m.method();
 
-    public static void main(String[] args) {
-        try {
-            findFile();
-        }
-        catch (IOException e) {
-            System.out.println(e);
-        }
+        System.out.println("normal flow...");
     }
 }

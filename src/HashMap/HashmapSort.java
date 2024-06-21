@@ -13,7 +13,7 @@ public class HashmapSort {
         // Function to sort map by Key
         public static void sortbykey()
         {
-            ArrayList<String> sortedKeys = new ArrayList<String>(map.keySet());
+            ArrayList<String> sortedKeys = new ArrayList<>(map.keySet()); //keySet() returns a set of keys in the map
             Collections.sort(sortedKeys);
 
             for (String x : sortedKeys)
@@ -30,5 +30,8 @@ public class HashmapSort {
             map.put("Danish", 40);
 
             sortbykey();
+
+            map.remove("Jayant");
+            System.out.println(map);
         }
 }

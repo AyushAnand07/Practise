@@ -6,7 +6,7 @@ package ArrayList;
 import java.util.*;
 
 class GFG {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         ArrayList<String> al = new ArrayList<>();
         al.add("United");

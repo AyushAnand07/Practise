@@ -3,6 +3,10 @@ package Interface;
 interface Animal {
     public abstract void animalSound(); // interface method (does not have a body) //public abstract by default
     public void sleep(); // interface method (does not have a body)
+    public default int add()
+    {
+        return 10;
+    }
 }
 
 class Pig implements Animal {
@@ -12,6 +16,7 @@ class Pig implements Animal {
     public void sleep() {
         System.out.println("Ayush");
     }
+
 }
 
 class Main {
@@ -19,5 +24,6 @@ class Main {
         Pig myPig = new Pig();
         myPig.animalSound();
         myPig.sleep();
+        System.out.println(myPig.add());
     }
 }

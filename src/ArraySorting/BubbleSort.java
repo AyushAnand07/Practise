@@ -5,7 +5,7 @@ import java.util.Arrays;
 class Main {
 
     // perform the bubble sort
-    static void bubbleSort(int array[]) {
+    static void bubbleSort(int[] array) {
         int size = array.length;
 
         for (int i = 0; i < size - 1; i++)

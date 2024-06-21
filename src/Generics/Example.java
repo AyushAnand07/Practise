@@ -5,23 +5,25 @@ package Generics;
 // Now generics force the java programmer to store a specific type of objects.
 
 
-import java.util.ArrayList;
-import java.util.Iterator;
-
-class TestGenerics1{
-    public static void main(String args[]){
-        ArrayList<String> list=new ArrayList<String>();
-        list.add("rahul");
-        list.add("jai");
-        list.add("25");
-//list.add(32);//compile time error
-
-        String s=list.get(1);//type casting is not required
-        System.out.println("element is: "+s);
-
-        Iterator<String> itr=list.iterator();
-        while(itr.hasNext()){
-            System.out.println(itr.next());
-        }
+// We use < > to specify a Parameter type
+class Test<T> {
+    // An object of type T is declared
+    T obj;
+    Test(T obj) {     //constructor
+        this.obj = obj;
+    }
+    public T getObject() {
+        return this.obj;
     }
 }
+
+class Main {
+    public static void main(String[] args) {
+        Test<Integer> iObj = new Test<Integer>(15); // instance of an Integer type
+        System.out.println(iObj.getObject());
+
+        Test<String> sObj = new Test<String>("Hello");         // instance of a String type
+        System.out.println(sObj.getObject());
+    }
+}
+

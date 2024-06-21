@@ -1,14 +1,15 @@
 package HashMap;
 
-//A HashMap however, store items in "key/value" pairs, and you can access them by an index of another type (e.g. a String).
+//A HashMap store items in "key/value" pairs, and you can access them by an index of another type (e.g. a String).
 //One object is used as a key (index) to another object (value)
 
 
 import java.util.HashMap;
+import java.util.Map;
 
 class Main {
     public static void main(String[] args) {
-        HashMap<String, String> capitalCities = new HashMap<String, String>();//hashMap with String key and String value pair
+        final Map<String, String> capitalCities = new HashMap<>();//hashMap with String key and String value pair
         capitalCities.put("England", "London");//Countries used as key and cities as values
         capitalCities.put("Germany", "Berlin");
         capitalCities.put("Norway", "Oslo");

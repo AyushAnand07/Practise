@@ -15,9 +15,8 @@ class Main extends Thread {
             System.out.println(i);
 
         try {
-            Thread.sleep(1000);
-
-        } catch (InterruptedException e) {
+            Thread.sleep(1000);}
+        catch (InterruptedException e) {
         }
     }
 }

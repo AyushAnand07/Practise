@@ -35,7 +35,7 @@ import java.util.*;
         }
         public static void main (String[] args)
         {
-            Stack<Integer> stack = new Stack<Integer>();
+            Stack<Integer> stack = new Stack<>();
             stack_push(stack);
             stack_pop(stack);
             stack_push(stack);

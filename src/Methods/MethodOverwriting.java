@@ -12,5 +12,11 @@ public class MethodOverwriting {
         public static void main(String args[]){
             Bike2 obj = new Bike2();//creating object
             obj.run();//calling method
+
+            MethodOverwriting m = new MethodOverwriting();
+            m.run();
+
+            MethodOverwriting m1 = new Bike2();
+            m1.run();
         }
     }

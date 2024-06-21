@@ -11,8 +11,7 @@ public class MethodOverriding {
         }
 
         public static void main(String args[]){
-            Test obj = new Test();
-            obj.run();//calling method
+            MethodOverriding obj = new Test();
         }
     }
 

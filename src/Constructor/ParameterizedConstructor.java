@@ -6,7 +6,7 @@ public class ParameterizedConstructor {
     int number;
     public ParameterizedConstructor(int n)
     {
-        number = n;
+        this.number = n;
     }
 }
 

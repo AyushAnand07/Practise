@@ -19,7 +19,7 @@ abstract class TwoDShape {
 
 class Rectangle extends TwoDShape {
     public Rectangle(double length, double width) {
-        super(length,width);
+        super(length,width); //super() is used to call constructor of parent class
     }
     public void draw() {
         System.out.println("Drawing Rectangle");
