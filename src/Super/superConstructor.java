@@ -10,7 +10,7 @@ public class superConstructor {
     }
     class Student extends superConstructor {
         Student() {
-            // Invoking the parent class constructor with the usage of super() word
+            // Invoking the parent class constructor with the usage of super() word and must be written at a first statement to work
             super();
 
             // Print statement whenever subclass constructor is called

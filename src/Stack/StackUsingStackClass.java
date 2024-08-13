@@ -4,25 +4,25 @@ import java.util.*;
 
  class Test
     {
-        static void stack_push(Stack<Integer> stack)         // Pushing element on the top of the stack
+        static void stack_push(Stack<Integer> stack)         // Pushing an element on the top of the stack
         {
             for(int i = 0; i < 5; i++)
             {
                 stack.push(i);
             }
         }
-        static void stack_pop(Stack<Integer> stack)         // Popping element from the top of the stack
+        static void stack_pop(Stack<Integer> stack)         // Popping an element from the top of the stack
         {
             System.out.println("Pop Operation:");
             for(int i = 0; i < 5; i++)
             {
-                Integer y = (Integer) stack.pop();
+                Integer y = stack.pop();
                 System.out.println(y);
             }
         }
         static void stack_peek(Stack<Integer> stack)         // Displaying element on the top of the stack
         {
-            Integer element = (Integer) stack.peek();
+            Integer element = stack.peek();
             System.out.println("Element on stack top: " + element);
         }
         static void stack_search(Stack<Integer> stack, int element)        // Searching element in the stack

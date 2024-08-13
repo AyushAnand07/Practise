@@ -5,7 +5,7 @@ package SingletonClass;
 //Create a private attribute of the class type that refers to the single object.
 //Create a public static method that allows us to create and access the object we created.
 class Database {
-    private static Database dbObject;
+    private static Database dbObject; //private attribute of class type referring to object
     private Database() {  //Constructor
     }
     public static Database getInstance() {
