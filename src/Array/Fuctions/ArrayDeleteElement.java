@@ -1,7 +1,7 @@
 package Array.Fuctions;
 import java.util.Arrays;
 
-class ArrayDeleteElement {
+class  ArrayDeleteElement {
     public static int[] removeTheElement(int[] arr, int index)
     {
         if (arr == null || index < 0 || index >= arr.length) //if array is null return original array

@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class SelectionSort {
     public static void main(String args[]) throws IOException {
-        int arr[] = {30, 55, 23, 7, 15, 35};
+        int[] arr = {30, 55, 23, 7, 15, 35};
         int temp = 0;
         int n = arr.length;
 
